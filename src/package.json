@@ -1,0 +1,24 @@
+{
+  "name": "RLStrategyy",
+  "version": "0.0.1",
+  "description": "A Rocket League Play maker",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "rocket",
+    "league",
+    "Play",
+    "maker"
+  ],
+  "author": "Tristen Hogue",
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": "0.37.3"
+  }
+}
