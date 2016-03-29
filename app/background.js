@@ -2,22 +2,31 @@
 // app starts. This script is running through entire life of your application.
 // It doesn't have any windows which you can see on screen, but we can open
 // window from here.
-
-import { app } from 'electron';
+import {
+    app
+} from 'electron';
 import devHelper from './helpers/dev';
 import createWindow from './helpers/window';
+import {
+    remote
+} from 'electron';
 
 // Special module holding environment variables which you declared
 // in config/env_xxx.json file.
 import env from './env';
 
+
 var mainWindow;
 
-app.on('ready', function () {
+app.on('ready', function() {
+
 
     var mainWindow = createWindow('main', {
         width: 1000,
-        height: 600
+        height: 600,
+        frame: true,
+        fullscreen: false,
+        titleBarStyle: 'hidden'
     });
 
     mainWindow.loadURL('file://' + __dirname + '/app.html');
@@ -28,6 +37,6 @@ app.on('ready', function () {
     }
 });
 
-app.on('window-all-closed', function () {
+app.on('window-all-closed', function() {
     app.quit();
 });

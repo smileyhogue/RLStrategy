@@ -1,19 +1,12 @@
 import { app, Menu, BrowserWindow } from 'electron';
-
+const dialog = require('electron').dialog;
 var setDevMenu = function () {
     var devMenu = Menu.buildFromTemplate([{
         label: 'Development',
         submenu: [{
-            label: 'Reload',
-            accelerator: 'CmdOrCtrl+R',
+            label: 'Credits',
             click: function () {
-                BrowserWindow.getFocusedWindow().webContents.reloadIgnoringCache();
-            }
-        },{
-            label: 'Toggle DevTools',
-            accelerator: 'Alt+CmdOrCtrl+I',
-            click: function () {
-                BrowserWindow.getFocusedWindow().toggleDevTools();
+                dialog.showErrorBox("Credits", "Developed by Tristen Hogue!")
             }
         },{
             label: 'Quit',

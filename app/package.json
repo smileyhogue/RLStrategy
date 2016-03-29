@@ -1,11 +1,11 @@
 {
-  "name": "electron-boilerplate",
-  "productName": "Electron Boilerplate",
-  "identifier": "com.example.electron-boilerplate",
-  "description": "Starter for your Electron application. Out of the box ready for serious stuff.",
-  "version": "0.1.0",
-  "author": "Mr Gumby",
-  "copyright": "© 2016, your company here",
+  "name": "RLStrategy",
+  "productName": "RLStrategy",
+  "identifier": "com.freemotion.io.rlstrategy",
+  "description": "A Rocket League strategy app",
+  "version": "0.0.1",
+  "author": "Tristen Hogue",
+  "copyright": "© 2016, Tristen Hogue",
   "main": "background.js",
   "dependencies": {
     "fs-jetpack": "^0.7.0"
