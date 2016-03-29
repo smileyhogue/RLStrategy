@@ -1,4 +1,4 @@
-RLStrategy
+RLStrategy       [![Build Status](https://travis-ci.org/smileyhogue/RLStrategy.svg?branch=master)](https://travis-ci.org/smileyhogue/RLStrategy)
 ==============
 A Rocket League strategy app.
 ```
