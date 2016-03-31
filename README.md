@@ -55,7 +55,7 @@ There are still a lot of 32-bit Windows installations in use. If you want to sup
 
 The MIT License (MIT)
 
-Copyright (c) 2015-2016 Tristen Hogue
+Copyright (c) 2016-2017 Tristen Hogue
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
