@@ -1,4 +1,5 @@
 RLStrategy       [![Build Status](https://travis-ci.org/smileyhogue/RLStrategy.svg?branch=master)](https://travis-ci.org/smileyhogue/RLStrategy)
+[Feel I am doing a good job? Click here to donate!](paypal.me/MrCodeGuy)
 ==============
 A Rocket League strategy app.
 ```
